@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gioco del Memory PWA</title>
+        <link rel="manifest" href="manifest.json">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <center>
+            <h1>Memory Game</h1>
+            <p>Mosse: <span id="contatoreMosse">0</span></p>
+            <button id="resetBtn">Nuova partita</button>
+            &nbsp;&nbsp;
+            <select name="difficolta" id="difficolta">
+                <option value="facile">Facile</option>
+                <option value="media">Media</option>
+                <option value="difficile">Difficile</option>
+            </select>
+        </center>
+        <br>
+        <br>
+        <div id="grigliaGioco"></div>
+        <center>
+            <h3 id="vittoriaLbl"></h3>
+        </center>
+        <script src="/js/memory_game.js"></script>
+    </body>
+</html>

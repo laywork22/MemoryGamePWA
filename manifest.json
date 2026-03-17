@@ -1,0 +1,16 @@
+{
+    "name": "Memory Game PWA",
+    "short_name": "Memory",
+    "description": "Una PWA per il gioco Memory",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#FFDDC1",
+    "theme_color": "#FFDDC1",
+    "icons": [
+        {
+            "src": "/icon.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+#grigliaGioco {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 400px;
+    margin: 20px auto;
+    gap: 10px;
+}
+
+#resetBtn {
+    border: none;
+    border-radius: 15px;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#difficolta {
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    user-select: none;
+}
+
+body {
+    background-color: #deb887;
+}
+
+
+
+.carta {
+    background-color: #007BFF;
+    color: transparent;
+    font-size: 40px;
+    height: 70px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.carta:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px rgba(0,0,0,0,2);
+}
+
+.carta.scoperta {
+    background-color: #D3D3D3;
+    color: black;
+    cursor: default;
+    transform: scale(1);
+    box-shadow: none;
+}
